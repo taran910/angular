@@ -1,0 +1,14 @@
+<div class="row py-3">
+    <div class="col-sm-12">
+        <h5 class="right_title">{{ right_title }}</h5>
+    </div>
+    
+</div>
+<ul >
+    <li
+    *ngFor='let ti of titles; index as i'
+    class="list-group-item">
+    {{ ti }} : {{ finalrows[i] }}
+    </li>
+</ul>
+

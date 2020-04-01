@@ -1,0 +1,16 @@
+*{
+   padding-top: 10px;
+  }
+  body{
+    background:#f6f6f6;
+  }
+  .section{
+    /* padding:2rem; */
+  }
+  .section-detail .container,.section-array-detail .container{
+    background-color: white;
+    padding:2rem;
+    padding-top:1rem;
+    margin-bottom: 2rem;
+  }
+  
